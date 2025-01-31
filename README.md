@@ -1,23 +1,25 @@
-1. Setup env vars
-  get_idf
+Getting Started
+====================
 
-2. Build the project
-  idf.py build
 
-3. Flash to device
-  idf.py -p <port> flash
+Setup and Installation
+---------------------------
 
-4. See console logs
-  idf.py -p <port> monitor
+1. Set up environment variables: Run get_idf to set up the necessary environment variables.
+2. Build the project: Run idf.py build to build the project.
+3. Flash to device: Run idf.py -p <port> flash to flash the project to your device.
+4. View console logs: Run idf.py -p <port> monitor to view the console logs.
 
-Notes:
 
-- To flash and see console logs
-  idf.py -p <port> flash monitor
+Additional Tips
+-------------------
 
-- To get list of the ports (on macos)
-  ls /dev/cu.*
+- Flash and monitor: Run idf.py -p <port> flash monitor to flash and monitor the device simultaneously.
+- List available ports (MacOS): Run ls /dev/cu.* to list the available ports.
+- Clean the build: Run idf.py clean to clean the build directory.
 
-- To clean the build
-  idf.py clean
-# motor-tester-wifi
+
+Usage
+-----
+
+Follow the steps above to set up, build, and flash your project. Use the additional tips to troubleshoot and optimize your workflow.
